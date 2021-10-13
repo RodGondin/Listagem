@@ -6,11 +6,14 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+th {
+  font-family: Roboto;
 }
 
-* {
-  box-sizing: border-box;
+td {
+  font-family: Roboto;
+}
+
+#middle {
+  text-align: center;
 }
