@@ -1,4 +1,5 @@
 import { Table } from "react-bootstrap";
+import DropDown from "./DropDown";
 
 export default function MainTable() {
   return (
@@ -23,7 +24,7 @@ export default function MainTable() {
           <td>Pedro Antonio</td>
           <td id="middle">1</td>
           <td>R$ 38,92</td>
-          <td id="middle">5</td>
+          <td id="middle">72</td>
           <td>R$32.000</td>
           <td id="middle" style={{ color: "#c73d2bdf" }}>
             ↝ 0.05%
@@ -37,8 +38,8 @@ export default function MainTable() {
           <td>Rogerio Flores</td>
           <td id="middle">1</td>
           <td>R$ 38,92</td>
-          <td id="middle">5</td>
-          <td>R$1.500</td>
+          <td id="middle">58</td>
+          <td>R$17.500</td>
           <td id="middle" style={{ color: "#c73d2bdf" }}>
             ↝ 0.05%
           </td>
@@ -61,6 +62,7 @@ export default function MainTable() {
           </td>
         </tr>
       </tbody>
+      <DropDown />
     </Table>
   );
 }

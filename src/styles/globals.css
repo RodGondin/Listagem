@@ -6,6 +6,7 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+/* -------------------------------------Tabela---------------------------------------- */
 th {
   font-family: Roboto;
 }
@@ -16,4 +17,14 @@ td {
 
 #middle {
   text-align: center;
+}
+/* --------------------------------------Dropdown-------------------------------------- */
+
+.dots {
+  color: rgb(45, 204, 196);
+  font-size: 1.4rem;
+}
+
+.Dropdown.Toggle::after {
+  content: none;
 }
