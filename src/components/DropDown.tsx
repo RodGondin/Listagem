@@ -29,33 +29,33 @@ export default function DropDown() {
 
           <Dropdown.ItemText id="filters">Colunas</Dropdown.ItemText>
 
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">Nº Cliente</Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">Cliente</Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">Qtd Chargeback</Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">Valor Chargeback</Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">Qtd Vendas</Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">Valor Total</Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">% Chargeback</Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">
             % Total Chargeback
           </Form.Check.Label>
           <br />
-          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
           <Form.Check.Label id="checklabel">Status</Form.Check.Label>
         </FormGroup>
       </DropdownButton>

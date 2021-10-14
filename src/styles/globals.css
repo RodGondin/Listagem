@@ -40,6 +40,7 @@ td {
 #checkinput {
   margin-left: 1rem;
   margin-right: 0.4rem;
+  border-color: rgb(45, 204, 196);
 }
 
 #checkinput:checked {
