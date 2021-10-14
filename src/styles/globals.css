@@ -18,13 +18,35 @@ td {
 #middle {
   text-align: center;
 }
+
+#id {
+  display: flex;
+  text-align: end;
+}
 /* --------------------------------------Dropdown-------------------------------------- */
 
-.dots {
+#dots {
   color: rgb(45, 204, 196);
   font-size: 1.4rem;
 }
 
-.Dropdown.Toggle::after {
-  content: none;
+#checklabel {
+  color: #458097;
+  font-size: 13.4px;
+  font-family: Roboto;
+  font-weight: 500;
+}
+
+#checkinput {
+  margin-left: 1rem;
+  margin-right: 0.4rem;
+}
+
+#checkinput:checked {
+  background-color: rgb(45, 204, 196);
+}
+
+#filters {
+  color: #38677a;
+  font-size: 14px;
 }

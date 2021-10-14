@@ -16,6 +16,9 @@ export default function MainTable() {
           <th style={{ width: 180 }}>VALOR TOTAL</th>
           <th id="middle">% CHARGEBACK</th>
           <th id="middle">% TOTAL CHARGEBACK</th>
+          <th id="end">
+            <DropDown />
+          </th>
         </tr>
       </thead>
       <tbody>
@@ -62,7 +65,6 @@ export default function MainTable() {
           </td>
         </tr>
       </tbody>
-      <DropDown />
     </Table>
   );
 }

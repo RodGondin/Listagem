@@ -1,17 +1,64 @@
-import { DropdownButton, Dropdown } from "react-bootstrap";
+import {
+  DropdownButton,
+  Dropdown,
+  ButtonGroup,
+  FormGroup,
+  InputGroup,
+  Form,
+} from "react-bootstrap";
 
 export default function DropDown() {
   return (
     <Dropdown>
-      <Dropdown.Toggle variant="none" id="dropdown-basic">
-        <strong className="dots">⋮</strong>
-      </Dropdown.Toggle>
+      <DropdownButton
+        variant="none"
+        id="dropdown-item-button"
+        title={<strong id="dots">⋮</strong>}
+        size="sm"
+      >
+        <Dropdown.ItemText id="filters">Linhas por página</Dropdown.ItemText>
+        <FormGroup>
+          <Form.Check.Input id="checkinput" type="checkbox" checked />
+          <Form.Check.Label id="checklabel">Padrão</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">50 linhas</Form.Check.Label>
+          <br />
 
-      <Dropdown.Menu>
-        <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
-        <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
-        <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
-      </Dropdown.Menu>
+          <Dropdown.Divider />
+
+          <Dropdown.ItemText id="filters">Colunas</Dropdown.ItemText>
+
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">Nº Cliente</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">Cliente</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">Qtd Chargeback</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">Valor Chargeback</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">Qtd Vendas</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">Valor Total</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">% Chargeback</Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">
+            % Total Chargeback
+          </Form.Check.Label>
+          <br />
+          <Form.Check.Input id="checkinput" type="checkbox" />
+          <Form.Check.Label id="checklabel">Status</Form.Check.Label>
+        </FormGroup>
+      </DropdownButton>
     </Dropdown>
   );
 }
