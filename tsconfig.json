@@ -16,6 +16,6 @@
     "noImplicitAny": false,
     "suppressImplicitAnyIndexErrors": false
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "cypress/integration/listagem/listagem.spec.js"],
   "exclude": ["node_modules"]
 }

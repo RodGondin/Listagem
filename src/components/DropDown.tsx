@@ -28,6 +28,7 @@ export default function DropDown({
         id="dropdown-item-button"
         title={<strong id="dots">⋮</strong>}
         size="sm"
+        data-cy="menu"
       >
         <Dropdown.ItemText id="filters">Linhas por página</Dropdown.ItemText>
         <FormGroup>
@@ -75,6 +76,7 @@ export default function DropDown({
             name="column"
             onChange={() => setClientFilter(!clientFilter)}
             checked={clientFilter}
+            data-cy="checkbox-client"
           />
           <Form.Check.Label id="checklabel">Cliente</Form.Check.Label>
           <br />
@@ -85,6 +87,7 @@ export default function DropDown({
             name="column"
             onChange={() => setQtdChargebackFilter(!qtdChargebackFilter)}
             checked={qtdChargebackFilter}
+            data-cy="checkbox-qtdchargeback"
           />
           <Form.Check.Label id="checklabel">Qtd Chargeback</Form.Check.Label>
           <br />
@@ -95,6 +98,7 @@ export default function DropDown({
             name="column"
             onChange={() => setValorChargebackFilter(!valorChargebackFilter)}
             checked={valorChargebackFilter}
+            data-cy="checkbox-valorchargeback"
           />
           <Form.Check.Label id="checklabel">Valor Chargeback</Form.Check.Label>
           <br />
